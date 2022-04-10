@@ -22,4 +22,4 @@ code.
 
 ## Guide
 
-The entry point to the pattern guide is a Jupyter Notebook, [Patterns](Patterns.ipynb), in the root of the project.
+The entry point to the pattern guide is a Jupyter Notebook, [Guide](mlpatterns/Guide.ipynb), in the root of the project.
