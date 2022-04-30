@@ -1,0 +1,49 @@
+#!/bin/bash
+
+################################
+### resolve local module imports
+pip install -e .
+
+#######################
+### enable nbextensions
+
+## example for jupyterlab
+# jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38 --minimize=False
+
+## Uncomment if not using conda-like package manager
+# jupyter contrib nbextension install --user
+
+## codefolding
+jupyter nbextension enable codefolding/main
+jupyter nbextension enable --section=edit codefolding/edit
+
+## code_font_size
+jupyter nbextension enable code_font_size/code_font_size
+
+## codemirror mode extensions
+jupyter nbextension enable codemirror_mode_extensions/main
+
+## code_prettify
+jupyter nbextension enable code_prettify/autopep8
+
+## collapsible_headings
+jupyter nbextension enable collapsible_headings/main
+
+## freeze cells
+jupyter nbextension enable freeze/main
+
+## hide inputs
+jupyter nbextension enable hide_input/main
+jupyter nbextension enable hide_input_all/main
+
+## initialization cells
+jupyter nbextension enable init_cell/main
+
+## JS widgets (??)
+jupyter nbextension enable jupyter-js-widgets/extension
+
+## live markdown preview
+jupyter nbextension enable livemdpreview/livemdpreview
+
+## table of contents
+jupyter nbextension enable toc2/main
