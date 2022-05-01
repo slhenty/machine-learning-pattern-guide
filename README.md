@@ -25,7 +25,7 @@ code.
 The simplest way to see the guide content is one of these Binder.org launchers,
 
 - Stable: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/slhenty/machine-learning-pattern-guide/stable?urlpath=tree%2Findex.html) (release branch)
-- Latest: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/slhenty/machine-learning-pattern-guide/master?urlpath=tree%2Findex.html)  (master)
+- Latest: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/slhenty/machine-learning-pattern-guide/main?urlpath=tree%2Findex.html)  (master)
 - WIP: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/slhenty/machine-learning-pattern-guide/WIP?urlpath=tree%2Findex.html) (dev branch)
 
 The entry point to the pattern guide is a Jupyter Notebook, [Guide](mlpatterns/nb/Guide.ipynb), in the root of the notebooks (nb) folder, although the binder launchers use `index.html` in the project root, which redirects to the Guide notebook.
