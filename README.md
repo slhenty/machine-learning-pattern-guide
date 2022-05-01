@@ -17,7 +17,7 @@ engineering pattern guides.
 
 ## Format
 
-For fairly obvious reasons, I'm using a Jupyter notebook to record the patterns and provide functioning examples of ML
+In keeping with ML practices, a Jupyter notebook is used to record the patterns and provide functioning examples of ML
 code.
 
 ## Guide
